@@ -1,130 +1,129 @@
-# Formulaire de la Gloire — Ultimate Contact Form
+# Formulaire de la Gloire — Formulaire de Contact Ultime
 
-![Formulaire de la Gloire](screenshot.png)  
+![Formulaire de la Gloire](screenshot.png)
 
-A retro, interactive, Undertale-inspired contact form packed with fun easter eggs, pixel-style visuals, and a Matrix-like interactive background. Designed for both fun and functionality, it demonstrates advanced frontend techniques, including keyboard navigation, audio feedback, visual effects, and client-side form validation.
-
----
-
-## Table of Contents
-1. [Tech Stack](#tech-stack)  
-2. [Project Overview](#project-overview)  
-3. [Features & Functionalities](#features--functionalities)  
-4. [How to Use the Form](#how-to-use-the-form)  
-5. [Keyboard Navigation](#keyboard-navigation)  
-6. [Easter Eggs](#easter-eggs)  
-7. [Setup & Running](#setup--running)  
-8. [Contributing](#contributing)  
-9. [Author](#author)  
+Un formulaire de contact rétro et interactif, inspiré d’Undertale, rempli de fun easter eggs, de visuels pixelisés, et d’un fond interactif style Matrix. Conçu pour allier plaisir et fonctionnalité, il démontre des techniques avancées de frontend, incluant la navigation au clavier, les effets sonores, les effets visuels et la validation client-side du formulaire.
 
 ---
 
-## Tech Stack
+## Table des matières
 
-- **HTML5** — semantic structure for the form and dialogs  
-- **CSS3 / Custom Variables** — retro pixel UI, Matrix-style interactive background, animations, confetti  
-- **JavaScript (ES6)** — form validation, easter eggs, typing animation, audio feedback, DOM manipulation  
-- **Web Audio API** — sound effects (beeps, musical notes)  
-- **Canvas API** — interactive pixel/matrix background and confetti effects  
-- **Optional backend** — simulated form submission with downloadable JSON fallback  
-
----
-
-## Project Overview
-
-This project is a contact form with a **retro gaming vibe** inspired by Undertale. It has been enhanced with:  
-
-- Audio feedback when typing or interacting with the UI  
-- Visual feedback using confetti, golden alerts, and an interactive matrix background  
-- Multiple hidden easter eggs activated by typing keywords, Konami code, or interacting with specific elements  
-- Keyboard-friendly navigation for accessibility and retro feel  
-
-The project can be run **fully client-side**, with a fallback JSON download if no backend exists.  
+1. [Technologies](#technologies)
+2. [Présentation du projet](#présentation-du-projet)
+3. [Fonctionnalités](#fonctionnalités)
+4. [Comment utiliser le formulaire](#comment-utiliser-le-formulaire)
+5. [Navigation au clavier](#navigation-au-clavier)
+6. [Easter Eggs](#easter-eggs)
+7. [Installation & Exécution](#installation--exécution)
+8. [Contributions](#contributions)
+9. [Auteur](#auteur)
 
 ---
 
-## Features & Functionalities
+## Technologies
 
-### Form Features
-- Required fields: `Nom`, `Email`, `Sujet`, `Message`  
-- Real-time client-side validation  
-- Visual feedback for invalid fields (red outline)  
-- Submit button triggers typing animation, sound effects, and confetti on success  
-- Demo fill button for instant testing  
-
-### Dialog / Alert Features
-- Pop-up dialogs with typewriter animation  
-- Golden glory mode for special messages  
-- Alerts with moving “OK” button for interactive fun  
-- ESC key closes alerts  
-
-### Audio Feedback
-- Beeps on typing or new lines  
-- Short musical note sequences on form submission and easter eggs  
-
-### Matrix-Style Background
-- Interactive pixel/matrix rain effect on canvas  
-- Background reacts to easter eggs or special triggers  
+- **HTML5** — structure sémantique pour le formulaire et les dialogues
+- **CSS3 / Variables personnalisées** — UI pixel rétro, fond interactif Matrix, animations, confettis
+- **JavaScript (ES6)** — validation du formulaire, easter eggs, animation dactylographique, retour audio, manipulation du DOM
+- **Web Audio API** — effets sonores (bips, notes musicales)
+- **Canvas API** — fond interactif pixel/Matrix et effets de confettis
+- **Backend optionnel** — soumission simulée du formulaire avec téléchargement JSON de secours
 
 ---
 
-## How to Use the Form
+## Présentation du projet
 
-1. Fill in the required fields: `Nom`, `Email`, `Sujet`, `Message`  
-2. Use **keyboard arrows** to navigate fields (Up/Down or Tab)  
-3. Press **Enter** on the submit button to send the form  
-4. On submit:  
-   - Form is validated  
-   - Typing animation displays confirmation  
-   - Musical notes play  
-   - Confetti bursts if special keywords are detected  
+Ce projet est un formulaire de contact avec une **ambiance rétro gaming** inspirée d’Undertale. Il est enrichi de :
+
+- Retour audio lors de la saisie ou de l’interaction avec l’interface
+- Feedback visuel avec confettis, alertes dorées et fond Matrix interactif
+- Plusieurs easter eggs cachés activés en tapant des mots-clés, le code Konami, ou en interagissant avec certains éléments
+- Navigation clavier pratique pour accessibilité et ambiance rétro
+
+Le projet fonctionne **entièrement côté client**, avec un téléchargement JSON de secours si aucun backend n’existe.
 
 ---
 
-## Keyboard Navigation
+## Fonctionnalités
 
-- **ArrowDown / Tab** → move to the next field  
-- **ArrowUp** → move to the previous field  
-- **Enter** → activates the focused button (submit, demo, or reset)  
+### Formulaire
 
-This mimics the **Undertale-style retro interface**.  
+- Champs obligatoires : `Nom`, `Email`, `Sujet`, `Message`
+- Validation client-side en temps réel
+- Feedback visuel pour les champs invalides (bordure rouge)
+- Le bouton d’envoi déclenche animation dactylographique, effets sonores et confettis en cas de succès
+- Bouton de démonstration pour tester instantanément
+
+### Dialogues / Alertes
+
+- Pop-ups avec animation typewriter
+- Mode “Golden Glory” pour messages spéciaux
+- Alertes avec bouton “OK” mobile pour interactivité
+- Fermeture des alertes via la touche ESC
+
+### Retour audio
+
+- Bips lors de la saisie ou des nouvelles lignes
+- Courtes séquences musicales lors de l’envoi du formulaire ou activation des easter eggs
+
+### Fond style Matrix
+
+- Effet pluie pixel/matrix interactif sur le canvas
+- Fond réactif aux easter eggs ou déclencheurs spéciaux
+
+---
+
+## Comment utiliser le formulaire
+
+1. Remplir les champs obligatoires : `Nom`, `Email`, `Sujet`, `Message`
+2. Utiliser les **flèches du clavier** pour naviguer entre les champs (Haut/Bas ou Tab)
+3. Appuyer sur **Enter** sur le bouton d’envoi pour soumettre le formulaire
+4. Lors de l’envoi :
+   - Le formulaire est validé
+   - L’animation typewriter affiche la confirmation
+   - Les notes musicales jouent
+   - Les confettis explosent si des mots-clés spéciaux sont détectés
+
+---
+
+## Navigation au clavier
+
+- **Flèche Bas / Tab** → passer au champ suivant
+- **Flèche Haut** → revenir au champ précédent
+- **Enter** → active le bouton focalisé (envoyer, démo, ou réinitialiser)
+
+Cette navigation imite **l’interface rétro style Undertale**.
 
 ---
 
 ## Easter Eggs
 
-Multiple hidden interactions enhance the retro experience:
+De multiples interactions cachées enrichissent l’expérience rétro :
 
-### Text-based Easter Eggs
-- Typing **INFO**, **NUIT**, or **GLORY** triggers special effects:  
-  - Pop-up golden alert (`GLORY`)  
-  - Matrix / confetti effects (`INFO` / `NUIT`)  
-- Keywords in `Sujet` or `Message` like `gagner` can trigger “You won” messages  
+### Easter Eggs textuels
 
-### Konami Code
-- `↑ ↑ ↓ ↓ ← → ← → B A` triggers a hidden dialog with confetti and sound  
+- Taper **INFO**, **NUIT**, ou **GLORY** déclenche des effets spéciaux :
+  - Alerte pop-up dorée (`GLORY`)
+  - Effets Matrix / confettis (`INFO` / `NUIT`)
+- Mots-clés dans `Sujet` ou `Message` comme `gagner` déclenchent des messages “Félicitations, vous avez gagné !”
 
-### Field Interactions
-- Focusing / hovering repeatedly over inputs can trigger random effects:  
-  - Field wiggle  
-  - Beeps or musical notes  
-  - Visual pixel sparkle effects  
+### Interactions avec les champs
 
-### Draggable Logo Easter Egg
-- Dragging the logo reveals a hidden message  
-- Logo reacts to movement, giving visual feedback  
+- Bips ou notes musicales
+- Étincelles pixelisées visuelles
 
-### Matrix Background Easter Eggs
-- Clicking or moving the mouse over the background can trigger:  
-  - Pixel explosions  
-  - Color glitches  
-  - Interactive sound feedback  
+### Easter Egg du logo draggable
+
+- Déplacer le logo révèle un message caché
+- Le logo réagit au mouvement avec feedback visuel
 
 ---
 
-## Setup & Running
+## Installation & Exécution
 
-1. Clone the repository:  
+1. Cloner le dépôt :
+
 ```bash
 git clone https://github.com/MohamedAmineZalila/Formulaire-de-la-Gloire.git
 cd Formulaire-de-la-Gloire
+```
