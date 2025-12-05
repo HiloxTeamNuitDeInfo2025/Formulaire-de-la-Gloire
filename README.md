@@ -124,6 +124,6 @@ De multiples interactions cachées enrichissent l’expérience rétro :
 1. Cloner le dépôt :
 
 ```bash
-git clone https://github.com/MohamedAmineZalila/Formulaire-de-la-Gloire.git
+https://github.com/HiloxTeamNuitDeInfo2025/Formulaire-de-la-Gloire.git
 cd Formulaire-de-la-Gloire
 ```
